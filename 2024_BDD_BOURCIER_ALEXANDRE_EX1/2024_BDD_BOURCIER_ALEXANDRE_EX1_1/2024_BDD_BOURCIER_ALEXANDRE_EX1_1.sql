@@ -1,3 +1,11 @@
+CREATE TABLE Utilisateurs(
+	NumeroEtudiant INT, 
+	Nom VARCHAR(50),
+	Prenom VARCHAR(50),
+	Email VARCHAR(50),
+	PRIMARY KEY(NumeroEtudiant)
+);
+
 INSERT INTO Utilisateurs (NumeroEtudiant, Nom, Prenom, Email)
 VALUES (123456, 'Dupont', 'Jean', 'jean.dupont@etu.univ-tours.fr');
 INSERT INTO Utilisateurs (NumeroEtudiant, Nom, Prenom, Email)
@@ -18,3 +26,5 @@ INSERT INTO Utilisateurs (NumeroEtudiant, Nom, Prenom, Email)
 VALUES (123464, 'Filo', 'Juliette', 'filo.juliette@etu.univ-tours.fr');
 INSERT INTO Utilisateurs (NumeroEtudiant, Nom, Prenom, Email)
 VALUES (123465, 'Lemoine', 'Lilou', 'lemoine.lilou@etu.univ-tours.fr');
+
+SELECT * FROM Utilisateurs
