@@ -1,7 +1,7 @@
 CREATE TABLE Materiel(
 	IdMatériel INT AUTO_INCREMENT,
 	NomMateriel VARCHAR(50),
-	Desription VARCHAR(50),
+	Desription VARCHAR(255),
 	Quantite INT,
 	PRIMARY KEY(IdMatériel)
 );
@@ -27,4 +27,4 @@ VALUES ('Casque', 'Casque audio Bose', 7);
 INSERT INTO Materiel (NomMateriel, Desription, Quantite)
 VALUES ('Webcam', 'Webcam HD Logitech', 6);
 
--- SELECT * FROM Materiel
+SELECT * FROM Materiel

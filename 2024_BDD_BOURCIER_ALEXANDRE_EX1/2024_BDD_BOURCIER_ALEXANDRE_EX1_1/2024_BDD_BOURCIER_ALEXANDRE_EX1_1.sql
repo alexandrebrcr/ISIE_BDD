@@ -2,7 +2,7 @@ CREATE TABLE Utilisateurs(
 	NumeroEtudiant INT, 
 	Nom VARCHAR(50),
 	Prenom VARCHAR(50),
-	Email VARCHAR(50),
+	Email VARCHAR(75),
 	PRIMARY KEY(NumeroEtudiant)
 );
 
