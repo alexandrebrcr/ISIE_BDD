@@ -11,14 +11,16 @@ CREATE TABLE Reservations(
 );
 
 INSERT INTO Reservations (DateDebut, DateFin, NombreArticles, NumeroEtudiant, IdMatériel)
-VALUES ('2024-03-01', '2024-03-05', 2, 123456, 1);
+VALUES ('20240102', '20240107', 2, 123456, 1);
 INSERT INTO Reservations (DateDebut, DateFin, NombreArticles, NumeroEtudiant, IdMatériel)
-VALUES ('2024-03-06', '2024-03-10', 1, 123457, 2);
+VALUES ('20240204', '20240206', 2, 123456, 6);
 INSERT INTO Reservations (DateDebut, DateFin, NombreArticles, NumeroEtudiant, IdMatériel)
-VALUES ('2024-03-11', '2024-03-15', 3, 123458, 3);
+VALUES ('20230920', '20231003', 1, 123457, 4);
 INSERT INTO Reservations (DateDebut, DateFin, NombreArticles, NumeroEtudiant, IdMatériel)
-VALUES ('2024-03-16', '2024-03-20', 1, 123459, 4);
+VALUES ('20231130', '20231201', 3, 123458, 3);
 INSERT INTO Reservations (DateDebut, DateFin, NombreArticles, NumeroEtudiant, IdMatériel)
-VALUES ('2024-03-21', '2024-03-25', 2, 123460, 5);
+VALUES ('20240306', '20240320', 1, 123459, 4);
+INSERT INTO Reservations (DateDebut, DateFin, NombreArticles, NumeroEtudiant, IdMatériel)
+VALUES ('20240104', '20240217', 2, 123460, 5);
 
 SELECT * FROM Reservations
