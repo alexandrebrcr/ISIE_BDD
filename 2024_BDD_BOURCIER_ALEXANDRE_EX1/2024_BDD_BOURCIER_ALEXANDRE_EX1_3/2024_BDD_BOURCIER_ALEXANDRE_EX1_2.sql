@@ -19,8 +19,12 @@ VALUES ('20230920', '20231003', 1, 123457, 4);
 INSERT INTO Reservations (DateDebut, DateFin, NombreArticles, NumeroEtudiant, IdMatériel)
 VALUES ('20231130', '20231201', 3, 123458, 3);
 INSERT INTO Reservations (DateDebut, DateFin, NombreArticles, NumeroEtudiant, IdMatériel)
-VALUES ('20240306', '20240320', 1, 123459, 4);
+VALUES ('20240106', '20240131', 1, 123459, 4);
 INSERT INTO Reservations (DateDebut, DateFin, NombreArticles, NumeroEtudiant, IdMatériel)
 VALUES ('20240104', '20240217', 2, 123460, 5);
+INSERT INTO Reservations (DateDebut, DateFin, NombreArticles, NumeroEtudiant, IdMatériel)
+VALUES ('20240118', '20240211', 2, 123462, 4);
+INSERT INTO Reservations (DateDebut, DateFin, NombreArticles, NumeroEtudiant, IdMatériel)
+VALUES ('20240313', '20240321', 2, 123465, 4);
 
-SELECT * FROM Reservations
+SELECT * FROM Reservations;
