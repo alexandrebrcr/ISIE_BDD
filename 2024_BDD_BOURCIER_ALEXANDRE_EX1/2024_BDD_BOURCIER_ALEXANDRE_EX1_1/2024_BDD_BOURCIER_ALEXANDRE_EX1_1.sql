@@ -27,4 +27,4 @@ VALUES (123464, 'Filo', 'Juliette', 'filo.juliette@etu.univ-tours.fr');
 INSERT INTO Utilisateurs (NumeroEtudiant, Nom, Prenom, Email)
 VALUES (123465, 'Lemoine', 'Lilou', 'lemoine.lilou@etu.univ-tours.fr');
 
-SELECT * FROM Utilisateurs
+SELECT * FROM Utilisateurs;

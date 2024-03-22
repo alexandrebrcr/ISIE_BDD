@@ -13,7 +13,7 @@ VALUES ('Projecteur', 'Projecteur Epson', 3);
 INSERT INTO Materiel (NomMateriel, Desription, Quantite)
 VALUES ('Tableau blanc', 'Tableau blanc magnetique', 2);
 INSERT INTO Materiel (NomMateriel, Desription, Quantite)
-VALUES ('Imprimante', 'Imprimante laser HP', 4);
+VALUES ('Imprimante', 'Imprimante laser HP', 17);
 INSERT INTO Materiel (NomMateriel, Desription, Quantite)
 VALUES ('Scanner', 'Scanner Canon', 2);
 INSERT INTO Materiel (NomMateriel, Desription, Quantite)
@@ -27,4 +27,4 @@ VALUES ('Casque', 'Casque audio Bose', 7);
 INSERT INTO Materiel (NomMateriel, Desription, Quantite)
 VALUES ('Webcam', 'Webcam HD Logitech', 6);
 
-SELECT * FROM Materiel
+SELECT * FROM Materiel;
