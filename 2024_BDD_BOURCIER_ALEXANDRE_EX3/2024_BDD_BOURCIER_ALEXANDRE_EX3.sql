@@ -1,9 +1,9 @@
-SELECT Materiel.* 
+SELECT Utilisateurs.*
+FROM Utilisateurs 
+JOIN Reservations ON Utilisateurs.NumeroEtudiant = Reservations.NumeroEtudiant;
+
+SELECT Materiel.*
 FROM Materiel 
 JOIN Reservations ON Materiel.IdMatériel = Reservations.IdMatériel 
-WHERE Reservations.NumeroEtudiant = 123456;
-
-SELECT Reservations.* 
-FROM Reservations 
-JOIN Materiel ON Reservations.IdMatériel = Materiel.IdMatériel 
-WHERE Materiel.IdMatériel = 1;
+JOIN Utilisateurs ON Reservations.NumeroEtudiant = Utilisateurs.NumeroEtudiant
+WHERE Utilisateurs.NumeroEtudiant = 123456;

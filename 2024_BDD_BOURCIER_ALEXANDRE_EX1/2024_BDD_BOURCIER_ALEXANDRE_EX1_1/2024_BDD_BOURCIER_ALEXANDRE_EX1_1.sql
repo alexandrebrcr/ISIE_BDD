@@ -17,7 +17,7 @@ VALUES (123459, 'Tuto', 'Fréd', 'fred.tuto@etu.univ-tours.fr');
 INSERT INTO Utilisateurs (NumeroEtudiant, Nom, Prenom, Email)
 VALUES (123460, 'Bourcier', 'Alex', 'alex.bourcier@etu.univ-tours.fr');
 INSERT INTO Utilisateurs (NumeroEtudiant, Nom, Prenom, Email)
-VALUES (123461, 'test', 'toto', 'toto.test@etu.univ-tours.fr');
+VALUES (123461, 'Dupont', 'toto', 'toto.dupont@etu.univ-tours.fr');
 INSERT INTO Utilisateurs (NumeroEtudiant, Nom, Prenom, Email)
 VALUES (123462, 'Yvan', 'Yvan', 'yvan.yvan@etu.univ-tours.fr');
 INSERT INTO Utilisateurs (NumeroEtudiant, Nom, Prenom, Email)
