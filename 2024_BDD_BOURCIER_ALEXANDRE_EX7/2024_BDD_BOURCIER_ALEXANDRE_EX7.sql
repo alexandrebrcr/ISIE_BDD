@@ -23,12 +23,12 @@ GROUP BY
 HAVING
     COUNT(*) > 3;
 
--- Doit-on afficher si il y a 0 emprunts ?
+-- Dernièrme modification pour afficher même si il y a 0 emprunts
 SELECT
     Utilisateurs.*,
-    COUNT(*) as NombreEmprunts
+    COUNT(Reservations.IdReservations) as NombreEmprunts
 FROM
     Utilisateurs
-    JOIN Reservations ON Utilisateurs.NumeroEtudiant = Reservations.NumeroEtudiant
+    LEFT JOIN Reservations ON Utilisateurs.NumeroEtudiant = Reservations.NumeroEtudiant
 GROUP BY
     Utilisateurs.NumeroEtudiant;

@@ -1,4 +1,3 @@
--- Afficher la table Reservations avant la suupression
 SELECT
     *
 FROM
@@ -9,7 +8,6 @@ DELETE FROM
 WHERE
     IdReservations = 6;
 
--- Afficher la table Reservations après la suupression
 SELECT
     *
 FROM
